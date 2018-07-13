@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+
+/*  This
+is
+a
+comment */
+/*  #### CSS Syntax###
+-made up of selectors inside of {} made up propertys and value & end with semi colon
+selector {
+property; value
+}
+
+### Type Selector#### */
+
+p { /* selects all <p> elements   */
+  font-size: 1em; /* #different terms for font size (16px, #pt, 100%, 1em ) */
+  line-height: 1.5em;
+
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman",serif; */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+
+  color:red ;
+  text-align: right;
+}
+
+/* Class Selector (applied to as many elemnts as you like) */
+
+.milk-text  { /* select elemnts with class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000 ;
+}
